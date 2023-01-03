@@ -2,7 +2,7 @@ Feature: NonCommerceDemo page login
   Background: common steps
     Given user should launch the browser "chrome"
     When open demo login page with page title "Your store. Login"
-  #  And maximize the browser window
+    And maximize the browser window
     Then user should enter Username "admin@yourstore.com" and Password "admin"
     Then user should click on login and should login succesfully with page title "Dashboard / nopCommerce administration"
 
